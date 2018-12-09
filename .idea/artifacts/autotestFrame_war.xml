@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="autotestFrame:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="autotest.war">
+      <element id="artifact" artifact-name="autotestFrame:war exploded" />
+    </root>
+  </artifact>
+</component>

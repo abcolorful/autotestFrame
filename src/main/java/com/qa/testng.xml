@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--运行方式：-->
+<!--1、选中testng.xml右键run-->
+<!--2、命令maven clean test -Dtestng.xml(注意pom里的路径要写绝对路径D:\autotestFrame\src\main\java\com\qa\testng.xml)-->
+<suite name="suit"    verbose="1" >
+    <test name="grabApiTest" >
+        <classes>
+            <class name="com.qa.testcase.TestGrabAPI"  />
+        </classes>
+    </test>
+</suite>
